@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    border: 0;
+}
+
+.topo {
+    background-color: rgba(47, 47, 47);
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.msgErro {
+    font-size: 25px;
+    color: red;
+    margin-left: 10px;
+}
+
+.msgSucesso {
+    font-size: 25px;
+    color: green;
+    margin-left: 10px;
+}

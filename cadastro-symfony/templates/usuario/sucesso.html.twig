@@ -1,0 +1,20 @@
+{% extends "base.html.twig" %}
+
+{% block topo %}
+    <div class="topo">
+        <img src="{{ asset('img/logo.png') }}"  class="logo" alt="logo"/>
+    </div>
+{% endblock topo %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+{% endblock stylesheets %}
+
+{% block title %}
+    Cadastro de Usuários
+{% endblock title %}
+
+{% block body %}
+    <p class="msgSucesso"><strong>{{ Fulano }}</strong>, cadastrado com sucesso!</p>
+    <a href="{{ url('web_usuario_index') }}">Voltar</a>
+{% endblock body %}
